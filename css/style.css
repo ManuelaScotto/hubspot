@@ -7,6 +7,7 @@
 body {
   position:relative;
   font-family: 'Ubuntu', sans-serif;
+  background-color: #F5F8FA;
 }
 
 .wrapper {
@@ -78,8 +79,9 @@ a {
   left: 0;
   padding: 15px 0;
   z-index: 1;
-  border: 1px solid #a2a2a2;
-  background-color: #eeede9;
+  border-top: 1px solid #a2a2a2;
+  border-bottom: 1px solid #a2a2a2;
+  background-color: #F5F8FA;
 }
 .nav-fixed-left {
   font-size: 15px;
@@ -188,12 +190,75 @@ a {
   color: #62748b;
 
 }
-.hub-free {
-  width: 100%;
-  height: 200px;
-  background-color: pink;
+
+/* MAIN */
+.hub {
+  background-color: #F5F8FA;
+}
+.hub-cube {
+  margin: 20px auto;
+  padding-bottom: 40px;
+  width: 70%;
+  text-align: center;
 }
 
+.hub-cube h3 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #32495b;
+}
+
+.hub-cube p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #62748b;
+}
+
+.hub-free {
+  width: 100%;
+  padding: 30px 0 60px;
+  margin: 0 0 10px 0;
+  box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.23);
+  background-color: white;
+  /* transition: transform 0.3s ease; */
+}
+/* .hub-free:hover {
+  width:400px;
+ height:200px;
+} */
+
+
+
+.hub-free-img {
+  width: 33%;
+  text-align: center;
+}
+.hub-free-img img {
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.hub-free-img .botton-orange {
+padding: 20px 50px;
+}
+
+.hub-free-text {
+  width: 67%;
+}
+.hub-free-text h5 {
+  display: inline-block;
+}
+.line {
+  display: inline-block;
+  width: 60px;
+  height: 1px;
+  background-color: black;
+}
+
+.hub-free-text li {
+  display: inline-block;
+}
 .hub-col {
   width: calc(100% / 3);
   height: 200px;
