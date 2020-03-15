@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float {
+  float: left;
+}
+
+.list-none {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-fixed-left {
+  width: 50%;
+  height: 200px;
+  background-color: blue;
+}
+.nav-fixed-right {
+  width: 50%;
+  height: 200px;
+  background-color: black;
+}
+
+.nav-bottom-left {
+  width: 50%;
+  height: 200px;
+  background-color: lightblue;
+}
+.nav-bottom-right {
+  width: 50%;
+  height: 200px;
+  background-color: lightgreen;
+}
+
+.jumbo-title {
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+}
+
+.hub-free {
+  width: 100%;
+  height: 200px;
+  background-color: pink;
+}
+
+.hub-col {
+  width: calc(100% / 3);
+  height: 200px;
+  background-color: green;
+  border: 1px solid black;
+}
+
+.learn-title  {
+  text-align: center;
+}
+
+.learn-box {
+  width: calc(100% / 4);
+  height: 50px;
+  background-color: beige;
+  border: 1px solid black;
+}
+
+.partner-title {
+  width: 50%;
+  height: 100px;
+  background-color: brown;
+}
+.partner-loghi {
+  width: 50%;
+  height: 100px;
+  background-color: red;
+}
+.start-title {
+  width: 50%;
+  height: 100px;
+  background-color: lightgreen;
+}
+.start-img {
+  width: 50%;
+  height: 100px;
+  background-color: silver;
+}
+
+footer {
+  height: 600px;
+  background-color: darkblue;
+}
+
+.footer-col {
+  width: calc(100% / 4);
+  height: 400px;
+  background-color: purple;
+  border: 1px solid white;
+}
+
+.footer-main {
+  height: 100px;
+  background-color: grey;
+}
+
+.footer-bottom-left {
+  width: 50%;
+  height: 100px;
+  background-color: orange;
+}
+.footer-bottom-right {
+  width: 50%;
+  height: 100px;
+  background-color: azure;
+}
