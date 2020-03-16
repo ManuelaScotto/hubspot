@@ -70,6 +70,12 @@ a {
   background-color: rgba(234, 131, 98, 0.4);
 }
 
+h3 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #32495b;
+}
+
 h4 {
  font-size: 22px;
  color: #32495b;
@@ -77,16 +83,25 @@ h4 {
  padding-bottom: 20px;
 }
 
-.p-small {
- font-weight: 400;
- line-height: 1.6;
- color: #32495b;
- padding-bottom: 20px;
-}
 h5 {
  display: inline-block;
  color: #32495b;
  padding-bottom: 20px;
+}
+
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #62748b;
+}
+
+.p-small {
+  font-weight: 400;
+  line-height: 1.6;
+  color: #32495b;
+  padding-bottom: 20px;
 }
 
 hr {
@@ -191,26 +206,22 @@ hr {
   color: #32495b;
 }
 
-.jumbo-title p {
+
+.p-title p {
   margin-bottom: 45px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.6;
-  color: #62748b;
 }
 
-.jumbo-title .botton-orange {
+.botton-padding {
   font-size: 17px;
   padding: 25px 40px;
   margin-bottom: 40px;
 }
 
-.jumbo-small {
-  padding: 40px 850px 0 0;
+.p-under-botton {
+  padding: 40px 1100px 0 0;
   font-size: 13px;
   line-height: 1.6;
   color: #62748b;
-
 }
 
 /* MAIN */
@@ -222,19 +233,6 @@ hr {
   padding-bottom: 40px;
   width: 70%;
   text-align: center;
-}
-
-.hub-cube h3 {
-  font-size: 32px;
-  margin-bottom: 30px;
-  color: #32495b;
-}
-
-.hub-cube p {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.6;
-  color: #62748b;
 }
 
 .hub-free {
@@ -344,10 +342,16 @@ padding: 20px 50px;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
+  color: white;
 }
 
 .learn-table-row {
   border-bottom: 1px solid white;
+}
+
+.learn-table-row p,
+.learn-table-bottom p {
+  color: white;
 }
 
 .learn-box {
@@ -387,7 +391,7 @@ padding: 20px 50px;
 /* PARTNER */
 .partner-title {
   width: 40%;
-  padding: 80px 0;
+  padding: 100px 0;
 }
 
 .partner-title h2 {
@@ -417,20 +421,38 @@ padding: 20px 50px;
   width: 120px;
   vertical-align: middle;
 }
-.start-title {
-  width: 50%;
-  height: 100px;
-  background-color: lightgreen;
-}
-.start-img {
-  width: 50%;
-  height: 100px;
-  background-color: silver;
+
+/* START */
+.start {
+  padding: 50px 0 180px;
 }
 
+.start-title {
+  width: 40%;
+  padding-top: 100px;
+}
+
+.start-title h3 {
+  font-size: 40px;
+}
+.start-title p {
+  padding: 20px 40px 60px 0;
+  margin-top: 30px;
+}
+
+.start-img {
+  width: 60%;
+  text-align: right;
+}
+
+.start-img img {
+  width: 55%;
+}
+
+/* FOOTER */
 footer {
-  height: 600px;
-  background-color: darkblue;
+  background-color: #33475B;
+
 }
 
 .footer-col {
