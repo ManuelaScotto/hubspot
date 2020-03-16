@@ -424,7 +424,7 @@ padding: 20px 50px;
 
 /* START */
 .start {
-  padding: 50px 0 180px;
+  padding: 50px 0 150px;
 }
 
 .start-title {
@@ -457,16 +457,69 @@ footer {
 
 .footer-col {
   width: calc(100% / 4);
-  height: 400px;
-  background-color: purple;
-  border: 1px solid white;
+  padding: 100px 20px 30px;
+  color: white;
+  font-size: 16px;
 }
 
+.footer-col li {
+  padding: 10px 0;
+}
+.footer-col li:last-child {
+ margin-bottom: 20px;
+}
+.footer-col a {
+  padding-right: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #acc2cc;
+}
+.footer-col a:hover,
+.icon i:hover,
+.footer-main a:hover {
+  color: #5ee4e2;
+}
+
+
+.botton-footer  {
+  padding: 13px 20px;
+  font-weight: 300;
+  font-size: 13px;
+  color: black;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.footer-col a.botton-footer {
+  font-size: 13px;
+  color: #32495b;
+}
+
+.icon i {
+  padding: 20px 10px;
+  font-size: 17px;
+  color: #acc2cc;
+}
+
+/* LANGUAGES */
 .footer-main {
-  height: 100px;
-  background-color: grey;
+  padding: 0 30px 30px ;
+  border-bottom: #acc2cc;
+  text-align: center;
 }
 
+.footer-main li {
+  padding: 0 20px;
+  display: inline;
+}
+
+.footer-main a {
+  font-size: 18px;
+  color: #acc2cc;
+}
+
+
+/* FOOTER BOTTOM */
 .footer-bottom-left {
   width: 50%;
   height: 100px;
