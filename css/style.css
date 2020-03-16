@@ -384,15 +384,38 @@ padding: 20px 50px;
   font-weight: 400;
 }
 
+/* PARTNER */
 .partner-title {
-  width: 50%;
-  height: 100px;
-  background-color: brown;
+  width: 40%;
+  padding: 80px 0;
 }
+
+.partner-title h2 {
+  font-size: 45px;
+  color: #32495b;
+  padding-bottom: 15px;
+}
+.partner-title p {
+  padding-right: 170px;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #555d68;
+}
+
 .partner-loghi {
-  width: 50%;
-  height: 100px;
-  background-color: red;
+  width: 60%;
+  line-height: 60%;
+  padding: 80px 0;
+}
+.partner-loghi-box {
+  width: calc(100% / 4);
+  padding: 20px;
+  text-align: center;
+}
+.partner-loghi-box img {
+  width: 120px;
+  vertical-align: middle;
 }
 .start-title {
   width: 50%;
