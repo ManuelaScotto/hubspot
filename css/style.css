@@ -89,6 +89,13 @@ h5 {
  padding-bottom: 20px;
 }
 
+h6 {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 15px;
+  color: #acc2cc;
+}
+
 
 p {
   font-size: 18px;
@@ -476,7 +483,8 @@ footer {
 }
 .footer-col a:hover,
 .icon i:hover,
-.footer-main a:hover {
+.footer-main a:hover,
+.footer-bottom-right a:hover {
   color: #5ee4e2;
 }
 
@@ -503,30 +511,30 @@ footer {
 
 /* LANGUAGES */
 .footer-main {
-  padding: 0 30px 30px ;
-  border-bottom: #acc2cc;
+  padding: 0 30px 30px;
+  border-bottom: 1px solid #acc2cc;
   text-align: center;
 }
 
-.footer-main li {
+.footer-main li ,
+.footer-bottom li {
   padding: 0 20px;
   display: inline;
 }
 
-.footer-main a {
+.footer-main a ,
+.footer-bottom a {
   font-size: 18px;
   color: #acc2cc;
 }
 
-
 /* FOOTER BOTTOM */
 .footer-bottom-left {
   width: 50%;
-  height: 100px;
-  background-color: orange;
+  padding: 40px 0 60px;
 }
 .footer-bottom-right {
+  padding: 40px 0 60px;
   width: 50%;
-  height: 100px;
-  background-color: azure;
+  text-align: right;
 }
