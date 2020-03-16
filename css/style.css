@@ -245,7 +245,8 @@ hr {
   background-color: white;
 }
 
-.hub-free:hover {
+.hub-free:hover,
+.hub-col:hover {
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -320,15 +321,56 @@ padding: 20px 50px;
   color: #fd7a5a;
   padding: 0 15px 5px 0;
 }
-.learn-title  {
-  text-align: center;
+
+/* LEARN */
+.learn {
+  background-image: linear-gradient(to bottom left, #00B9A9, #00AAB8);
+  color: white;
 }
 
+.learn-title  {
+  text-align: center;
+  padding: 100px 260px;
+}
+
+.learn-title h2 {
+  font-size: 31px;
+  line-height: 1.4;
+}
+
+.learn-title p {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+}
 .learn-box {
+  position: relative;
   width: calc(100% / 4);
-  height: 50px;
-  background-color: beige;
-  border: 1px solid black;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid white;
+}
+.after h2::after {
+  position: absolute;
+  content: '+';
+  font-size: 20px;
+  font-weight: 400;
+  top: 47%;
+}
+.learn-box img {
+  height: 28.5px;
+}
+.learn-box i {
+  font-size: 32px;
+}
+.learn-box h2 {
+  font-size: 45px;
+}
+.learn-box h2 span {
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .partner-title {
