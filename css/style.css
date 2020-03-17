@@ -10,6 +10,58 @@ body {
   background-color: #F5F8FA;
 }
 
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin: 30px 0;
+}
+
+h3 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #32495b;
+}
+
+h4 {
+ font-size: 22px;
+ color: #32495b;
+ font-weight: 500;
+ padding-bottom: 20px;
+}
+
+h5 {
+ display: inline-block;
+ color: #32495b;
+ padding-bottom: 20px;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 15px;
+  color: #acc2cc;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #62748b;
+}
+
+.p-small {
+  font-weight: 400;
+  line-height: 1.6;
+  color: #32495b;
+  padding-bottom: 20px;
+}
+
+.list-none {
+  list-style: none;
+}
+
 .wrapper {
   width: 70%;
   margin: 0 auto;
@@ -29,14 +81,6 @@ body {
   width: 50%;
   height: 50px;
   line-height: 50px;
-}
-
-.list-none {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
 }
 
 .botton-white {
@@ -70,50 +114,6 @@ a {
   background-color: rgba(234, 131, 98, 0.4);
 }
 
-h3 {
-  font-size: 32px;
-  margin-bottom: 30px;
-  color: #32495b;
-}
-
-h4 {
- font-size: 22px;
- color: #32495b;
- font-weight: 500;
- padding-bottom: 20px;
-}
-
-h5 {
- display: inline-block;
- color: #32495b;
- padding-bottom: 20px;
-}
-
-h6 {
-  font-size: 12px;
-  font-weight: 300;
-  margin-top: 15px;
-  color: #acc2cc;
-}
-
-
-p {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.6;
-  color: #62748b;
-}
-
-.p-small {
-  font-weight: 400;
-  line-height: 1.6;
-  color: #32495b;
-  padding-bottom: 20px;
-}
-
-hr {
-  margin: 30px 0;
-}
 /* NAV FIXED */
 .nav-fixed {
   position: fixed;
@@ -127,6 +127,7 @@ hr {
   border-bottom: 1px solid #a2a2a2;
   background-color: #F5F8FA;
 }
+
 .nav-fixed-left {
   font-size: 15px;
   color: #32495b;
@@ -158,8 +159,8 @@ hr {
 
 /* NAV BOTTON */
 .nav-bottom {
-  margin-top: 80px;
   height: 80px;
+  margin-top: 80px;
   padding: 15px 0;
 }
 
@@ -183,14 +184,16 @@ hr {
 
 .nav-bottom-right li {
   display: inline-block;
-  padding: 0 10px;
-  color: #545a64;
+  padding: 0 15px;
 }
-
 .nav-bottom-right a {
-  color: #545a64;
+  color: #344a5a;
   font-size: 15px;
   font-weight: 500;
+}
+.icon-down {
+  padding-left: 5px;
+  color: #8e9fa9;
 }
 
 /* JUMBO */
@@ -201,31 +204,31 @@ hr {
   background-repeat: no-repeat;
   background-image: url(../img/jumbotron.png);
 }
+
 .jumbo-title {
   width: 40%;
   padding-top: 100px;
 }
 
 .jumbo-title h1 {
+  margin-bottom: 25px;
   font-size: 46px;
   font-weight: 600;
-  margin-bottom: 25px;
   color: #32495b;
 }
-
 
 .p-title p {
   margin-bottom: 45px;
 }
 
 .botton-padding {
-  font-size: 17px;
-  padding: 25px 40px;
   margin-bottom: 40px;
+  padding: 25px 40px;
+  font-size: 17px;
 }
 
 .p-under-botton {
-  padding: 40px 1100px 0 0;
+  padding: 40px 80% 0 0;
   font-size: 13px;
   line-height: 1.6;
   color: #62748b;
@@ -235,10 +238,11 @@ hr {
 .hub {
   background-color: #F5F8FA;
 }
+
 .hub-cube {
+  width: 70%;
   margin: 20px auto;
   padding-bottom: 40px;
-  width: 70%;
   text-align: center;
 }
 
@@ -249,7 +253,6 @@ hr {
   box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.23);
   background-color: white;
 }
-
 .hub-free:hover,
 .hub-col:hover {
   -ms-transform: scale(1.1);
@@ -275,24 +278,23 @@ padding: 20px 50px;
   padding: 40px 150px 40px 40px;
 }
 
-
 .line {
   display: inline-block;
   width: 520px;
-  text-align: right;
-  margin-left: 40px;
   height: 1px;
+  margin-left: 40px;
+  text-align: right;
   background-color: #efeeeb ;
 }
 
 .hub-free-text li {
   display: inline-block;
-  color: #32495b;
   padding-right: 15px;
+  color: #32495b;
 }
 .hub-free-text li i {
-  color: #fd7a5a;
   padding: 0 9px 0 15px;
+  color: #fd7a5a;
 }
 .hub-free-text ul i:first-child {
   padding-left: 0;
@@ -300,11 +302,11 @@ padding: 20px 50px;
 
 .hub-col {
   width: calc((100% / 3) - 27px);
-  padding: 40px;
   margin-bottom: 40px;
+  padding: 40px;
   box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.23);
-  background-color: white;
   text-align: center;
+  background-color: white;
 }
 
 .sales {
@@ -312,31 +314,31 @@ padding: 20px 50px;
 }
 
 .p-min-height {
-  min-height: 130px;
+  min-height: 200px;
 }
+
 .hub-col ul {
-  text-align: left;
   padding: 10px 0 60px;
+  text-align: left;
 }
 .hub-col li {
   color: #32495b;
 }
-
 .hub-col li i {
-  color: #fd7a5a;
   padding: 0 15px 5px 0;
+  color: #fd7a5a;
 }
 
 /* LEARN */
 .learn {
-  background-image: linear-gradient(to bottom left, #00B9A9, #00AAB8);
-  color: white;
   padding-bottom: 120px;
+  color: white;
+  background-image: linear-gradient(to bottom left, #00B9A9, #00AAB8);
 }
 
 .learn-title  {
+  padding: 100px 200px;
   text-align: center;
-  padding: 100px 260px;
 }
 
 .learn-title h2 {
@@ -355,7 +357,6 @@ padding: 20px 50px;
 .learn-table-row {
   border-bottom: 1px solid white;
 }
-
 .learn-table-row p,
 .learn-table-bottom p {
   color: white;
@@ -373,6 +374,7 @@ padding: 20px 50px;
 .learn-table-bottom .learn-box:first-child {
   border-left: 0;
 }
+
 .after h2::after {
   position: absolute;
   content: '+';
@@ -402,10 +404,11 @@ padding: 20px 50px;
 }
 
 .partner-title h2 {
+  padding-bottom: 15px;
   font-size: 45px;
   color: #32495b;
-  padding-bottom: 15px;
 }
+
 .partner-title p {
   padding-right: 170px;
   font-size: 21px;
@@ -416,9 +419,10 @@ padding: 20px 50px;
 
 .partner-loghi {
   width: 60%;
-  line-height: 60%;
   padding: 80px 0;
+  line-height: 45px;
 }
+
 .partner-loghi-box {
   width: calc(100% / 4);
   padding: 20px;
@@ -426,6 +430,8 @@ padding: 20px 50px;
 }
 .partner-loghi-box img {
   width: 120px;
+  min-height: 10px;
+  max-height: 45px;
   vertical-align: middle;
 }
 
@@ -442,6 +448,7 @@ padding: 20px 50px;
 .start-title h3 {
   font-size: 40px;
 }
+
 .start-title p {
   padding: 20px 40px 60px 0;
   margin-top: 30px;
@@ -451,7 +458,6 @@ padding: 20px 50px;
   width: 60%;
   text-align: right;
 }
-
 .start-img img {
   width: 55%;
 }
@@ -459,7 +465,6 @@ padding: 20px 50px;
 /* FOOTER */
 footer {
   background-color: #33475B;
-
 }
 
 .footer-col {
@@ -494,8 +499,8 @@ footer {
   font-weight: 300;
   font-size: 13px;
   color: black;
-  background-color: white;
   border-radius: 3px;
+  background-color: white;
 }
 
 .footer-col a.botton-footer {
@@ -518,8 +523,8 @@ footer {
 
 .footer-main li ,
 .footer-bottom li {
-  padding: 0 20px;
   display: inline;
+  padding: 0 20px;
 }
 
 .footer-main a ,
@@ -534,7 +539,7 @@ footer {
   padding: 40px 0 60px;
 }
 .footer-bottom-right {
-  padding: 40px 0 60px;
   width: 50%;
+  padding: 40px 0 60px;
   text-align: right;
 }
