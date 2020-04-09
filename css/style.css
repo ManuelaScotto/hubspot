@@ -91,6 +91,7 @@ p {
   background-color: white;
   border: 1px solid #fd7a5a;
   border-radius: 3px;
+  transition: .35s;
 }
 
 .botton-white:hover,
@@ -106,6 +107,7 @@ p {
   color: white;
   background-color: #fd7a5a;
   border-radius: 3px;
+  transition: .35s;
 }
 
 .botton-orange:hover,
@@ -135,12 +137,14 @@ p {
 .space-en {
   margin: 0 7px;
 }
+
 .contact {
   margin: 0 20px;
   padding: 0 20px;
   border-left: 1.5px solid #a2a2a2;
 }
-.contact a {
+.contact a,
+a.space-en {
   color: #32495b;
 }
 
@@ -173,6 +177,7 @@ p {
 .nav-bottom-left img {
   width: 90px;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .nav-bottom-right {
@@ -252,12 +257,13 @@ p {
   margin: 0 0 40px 0;
   box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.23);
   background-color: white;
+  transition: 0.5s;
 }
 .hub-free:hover,
 .hub-col:hover {
-  -ms-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -ms-transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .hub-free-img {
@@ -307,6 +313,7 @@ padding: 20px 50px;
   box-shadow: 0px 0px 11px -5px rgba(0,0,0,0.23);
   text-align: center;
   background-color: white;
+  transition: 0.5s;
 }
 
 .sales {
